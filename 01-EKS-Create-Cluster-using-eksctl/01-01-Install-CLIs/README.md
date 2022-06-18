@@ -82,7 +82,9 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bash_profile
 kubectl version --short --client
 Output: Client Version: v1.16.8-eks-e16311
 ```
-
+# Use below commands to instsll eksctl in Mac M1
+brew install eksctl
+```
 
 ### Step-02-02: Windows 10 - Install and configure kubectl
 - Install kubectl on Windows 10 
