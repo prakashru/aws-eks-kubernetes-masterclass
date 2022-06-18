@@ -72,7 +72,8 @@ eksctl create nodegroup --cluster=eksdemo1 \
                         --appmesh-access \
                         --alb-ingress-access 
 ```
-
+kubectl get nodes
+kubectl get nodes -o wide
 ## Step-05: Verify Cluster & Nodes
 
 ### Verify NodeGroup subnets to confirm EC2 Instances are in Public Subnet
